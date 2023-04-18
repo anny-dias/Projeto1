@@ -71,3 +71,11 @@ p{
     height: auto;
     width: auto;
 }
+
+#conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ffe7eb;
+    
+}
