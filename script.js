@@ -15,7 +15,7 @@ function calc(){
     let n2 = Number(prompt("Digite o segundo valor:"))
     let op = Number(prompt(`DADOS INFORMADOS: ${n1} e ${n2} \n Escolha uma opção: \n[1] Somar \n[2] Subtrair \n[3] Multiplicar \n[4] Dividir` ))
     let msg = document.getElementById('msg')
-    msg.innerHTML = `<h2>Processando o resutado</h2>`
+    msg.innerHTML = `<h2>Processando o resultado</h2>`
 
     switch(op){
         case 1:
