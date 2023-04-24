@@ -35,3 +35,35 @@ function calc(){
             break;
     }
 }
+
+const usuarios =[
+    {nome:"Anny",idade:17},
+    {nome:"Victor",idade:18},
+    {nome:"Luana",idade:19},
+]
+
+let msg = document.getElementById('msg1')
+
+const nomeUsers = usuarios.length;
+
+for(let i = 0; i <nomeUsers;i++){
+    msg.innerHTML += `<p>${usuarios[i].nome} ${usuarios[i].idade}</p>`
+}
+
+var imagens =[
+    'img/img1.png',
+    'img/img2.png',
+    'img/img3.png',
+];
+
+var Index = 0;
+var time = 2000;
+
+function slideShow(){
+    document.getElementById('image').src=imagens[Index];
+    Index++;
+    if (Index == imagens.length) {Index = 0;}
+        setTimeout("slideShow()", time);
+}
+slideShow();
+

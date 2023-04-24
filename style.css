@@ -79,3 +79,21 @@ p{
     color: #ffe7eb;
     
 }
+
+#msg1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ffe7eb;
+    font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to bottom, #ffe7ff, palevioletred);
+}
+
+#image{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
